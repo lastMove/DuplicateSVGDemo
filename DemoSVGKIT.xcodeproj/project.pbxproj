@@ -7,12 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7351299A1E49DEBB00C261C7 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 735129991E49DEBB00C261C7 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		7351299E1E49E01A00C261C7 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7351299D1E49E01A00C261C7 /* CoreText.framework */; };
+		735129A01E49E02200C261C7 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7351299F1E49E02200C261C7 /* CoreImage.framework */; };
+		735129A21E49E03200C261C7 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 735129A11E49E03200C261C7 /* libxml2.tbd */; };
+		735129A41E49E03C00C261C7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 735129A31E49E03B00C261C7 /* QuartzCore.framework */; };
+		735129A61E49E04200C261C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 735129A51E49E04200C261C7 /* CoreGraphics.framework */; };
+		735129A81E49E04800C261C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 735129A71E49E04800C261C7 /* UIKit.framework */; };
+		735129B01E49E0F400C261C7 /* SVGKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 736E74011E493421009A697E /* SVGKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		735129B11E49E0F400C261C7 /* CocoaLumberjack.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 735129991E49DEBB00C261C7 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		735129B21E49E0F400C261C7 /* UIKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 735129A71E49E04800C261C7 /* UIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		735129B31E49E0F400C261C7 /* CoreGraphics.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 735129A51E49E04200C261C7 /* CoreGraphics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		735129B41E49E0F400C261C7 /* QuartzCore.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 735129A31E49E03B00C261C7 /* QuartzCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		735129B51E49E0F400C261C7 /* CoreImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7351299F1E49E02200C261C7 /* CoreImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		735129B61E49E0F400C261C7 /* CoreText.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7351299D1E49E01A00C261C7 /* CoreText.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		735129B81E4A289800C261C7 /* RainbowWing.svg in Resources */ = {isa = PBXBuildFile; fileRef = 735129B71E4A289800C261C7 /* RainbowWing.svg */; };
 		736E73E21E4909A7009A697E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736E73E11E4909A7009A697E /* AppDelegate.swift */; };
 		736E73E41E4909A7009A697E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736E73E31E4909A7009A697E /* ViewController.swift */; };
 		736E73E71E4909A7009A697E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736E73E51E4909A7009A697E /* Main.storyboard */; };
-		736E73E91E4909A7009A697E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736E73E81E4909A7009A697E /* Assets.xcassets */; };
 		736E73EC1E4909A7009A697E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736E73EA1E4909A7009A697E /* LaunchScreen.storyboard */; };
-		736E73F71E4909A7009A697E /* DemoSVGKITUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736E73F61E4909A7009A697E /* DemoSVGKITUITests.swift */; };
+		736E74021E493421009A697E /* SVGKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736E74011E493421009A697E /* SVGKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,17 +39,42 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7351299B1E49DF8900C261C7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				735129B01E49E0F400C261C7 /* SVGKit.framework in CopyFiles */,
+				735129B11E49E0F400C261C7 /* CocoaLumberjack.framework in CopyFiles */,
+				735129B21E49E0F400C261C7 /* UIKit.framework in CopyFiles */,
+				735129B31E49E0F400C261C7 /* CoreGraphics.framework in CopyFiles */,
+				735129B41E49E0F400C261C7 /* QuartzCore.framework in CopyFiles */,
+				735129B51E49E0F400C261C7 /* CoreImage.framework in CopyFiles */,
+				735129B61E49E0F400C261C7 /* CoreText.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		735129991E49DEBB00C261C7 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = "<group>"; };
+		7351299D1E49E01A00C261C7 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		7351299F1E49E02200C261C7 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		735129A11E49E03200C261C7 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		735129A31E49E03B00C261C7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		735129A51E49E04200C261C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		735129A71E49E04800C261C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		735129B71E4A289800C261C7 /* RainbowWing.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RainbowWing.svg; sourceTree = "<group>"; };
 		736E73DE1E4909A7009A697E /* DemoSVGKIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSVGKIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		736E73E11E4909A7009A697E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		736E73E31E4909A7009A697E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		736E73E61E4909A7009A697E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		736E73E81E4909A7009A697E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		736E73EB1E4909A7009A697E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		736E73ED1E4909A7009A697E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		736E73F21E4909A7009A697E /* DemoSVGKITUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoSVGKITUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		736E73F61E4909A7009A697E /* DemoSVGKITUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSVGKITUITests.swift; sourceTree = "<group>"; };
-		736E73F81E4909A7009A697E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		736E74011E493421009A697E /* SVGKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SVGKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +82,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				735129A81E49E04800C261C7 /* UIKit.framework in Frameworks */,
+				735129A61E49E04200C261C7 /* CoreGraphics.framework in Frameworks */,
+				735129A41E49E03C00C261C7 /* QuartzCore.framework in Frameworks */,
+				735129A21E49E03200C261C7 /* libxml2.tbd in Frameworks */,
+				735129A01E49E02200C261C7 /* CoreImage.framework in Frameworks */,
+				7351299E1E49E01A00C261C7 /* CoreText.framework in Frameworks */,
+				7351299A1E49DEBB00C261C7 /* CocoaLumberjack.framework in Frameworks */,
+				736E74021E493421009A697E /* SVGKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +103,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7351299C1E49E01900C261C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				735129A71E49E04800C261C7 /* UIKit.framework */,
+				735129A51E49E04200C261C7 /* CoreGraphics.framework */,
+				735129A31E49E03B00C261C7 /* QuartzCore.framework */,
+				735129A11E49E03200C261C7 /* libxml2.tbd */,
+				7351299F1E49E02200C261C7 /* CoreImage.framework */,
+				7351299D1E49E01A00C261C7 /* CoreText.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		736E73D51E4909A7009A697E = {
 			isa = PBXGroup;
 			children = (
 				736E73E01E4909A7009A697E /* DemoSVGKIT */,
-				736E73F51E4909A7009A697E /* DemoSVGKITUITests */,
 				736E73DF1E4909A7009A697E /* Products */,
+				7351299C1E49E01900C261C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,22 +138,15 @@
 			isa = PBXGroup;
 			children = (
 				736E73E11E4909A7009A697E /* AppDelegate.swift */,
+				736E74011E493421009A697E /* SVGKit.framework */,
 				736E73E31E4909A7009A697E /* ViewController.swift */,
+				735129991E49DEBB00C261C7 /* CocoaLumberjack.framework */,
+				735129B71E4A289800C261C7 /* RainbowWing.svg */,
 				736E73E51E4909A7009A697E /* Main.storyboard */,
-				736E73E81E4909A7009A697E /* Assets.xcassets */,
 				736E73EA1E4909A7009A697E /* LaunchScreen.storyboard */,
 				736E73ED1E4909A7009A697E /* Info.plist */,
 			);
 			path = DemoSVGKIT;
-			sourceTree = "<group>";
-		};
-		736E73F51E4909A7009A697E /* DemoSVGKITUITests */ = {
-			isa = PBXGroup;
-			children = (
-				736E73F61E4909A7009A697E /* DemoSVGKITUITests.swift */,
-				736E73F81E4909A7009A697E /* Info.plist */,
-			);
-			path = DemoSVGKITUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +159,7 @@
 				736E73DA1E4909A7009A697E /* Sources */,
 				736E73DB1E4909A7009A697E /* Frameworks */,
 				736E73DC1E4909A7009A697E /* Resources */,
+				7351299B1E49DF8900C261C7 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -180,8 +234,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				736E73EC1E4909A7009A697E /* LaunchScreen.storyboard in Resources */,
-				736E73E91E4909A7009A697E /* Assets.xcassets in Resources */,
 				736E73E71E4909A7009A697E /* Main.storyboard in Resources */,
+				735129B81E4A289800C261C7 /* RainbowWing.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				736E73F71E4909A7009A697E /* DemoSVGKITUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +390,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DemoSVGKIT",
+				);
 				INFOPLIST_FILE = DemoSVGKIT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MTT.DemoSVGKIT;
@@ -349,6 +406,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DemoSVGKIT",
+				);
 				INFOPLIST_FILE = DemoSVGKIT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MTT.DemoSVGKIT;
@@ -402,6 +463,7 @@
 				736E73FD1E4909A7009A697E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		736E73FE1E4909A7009A697E /* Build configuration list for PBXNativeTarget "DemoSVGKITUITests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +472,7 @@
 				736E74001E4909A7009A697E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

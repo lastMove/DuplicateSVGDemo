@@ -7,19 +7,27 @@
 //
 
 import UIKit
+import SVGKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBOutlet weak var firstView: SVGKLayeredImageView!
+    @IBOutlet weak var secondView: SVGKLayeredImageView!
+    
+    @IBAction func firstButtonTapped(_ sender: Any) {
+        loadSVG(to: firstView)
+    }
+    @IBAction func secondButtonTapped(_ sender: Any) {
+            loadSVG(to: secondView)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func loadSVG(to view: SVGKLayeredImageView) {
+        let image = SVGKImage(named: "RainbowWing.svg")!
+        
+        // STRANGELY THESE TWO LINES FIXES THE BUG 
+        // let size = image.size
+        // image.size = size
+        view.image = image
     }
-
-
 }
 
